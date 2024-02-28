@@ -1,37 +1,20 @@
 #include <iostream>
+#include <stdlib.h>
+#include <stdio.h>
+#include <Windows.h>
 #include <vector>
+#include <string>
+#include <stdexcept>
+#include <limits>
 #pragma once
 
-class Window {
+class Number {
 private:
-	float x, y;
-
+	static int maxnum;
+	static int minnum;
+	int value;
 public:
-	void Constructor(float valx, float valy);
-	float retX();
-	float retY();
-};
-
-class Doors {
-private:
-	float x, y;
-
-public:
-	void Constructor(float valx, float valy);
-	float retX();
-	float retY();
-};
-
-class Room {
-private:
-	float x, y, z;
-	std::vector<Doors> door;
-	std::vector<Window> window;
-public:
-	void Constructor(float coord[]);
-	void addDoors(Doors arg);
-	void addWindow(Window arg);
-	float getC(char coord);
-	float wallArea();
-	float gridFloor();
+	static void set(int which, int val);
+	void setVal(int val);
+	int getVal() const;
 };

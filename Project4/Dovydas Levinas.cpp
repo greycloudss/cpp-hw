@@ -3,15 +3,7 @@
 #include <vector>
 #include "priv.h"
 
-void Window::Constructor(float valx, float valy) {
-	if (x != NULL && valy != NULL) {
-		this->x = valx;
-		this->y = valy;
-	}
-	else {
-		this->x = 0;
-		this->y = 0;
-	}
+Window::Window(float valx, float valy)::x(valx), x(valy)  {
 }
 
 float Window::retX() {
