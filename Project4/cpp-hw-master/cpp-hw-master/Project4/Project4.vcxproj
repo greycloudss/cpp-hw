@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="02-29\1.cpp" />
+    <ClCompile Include="Dovydas Levinas.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="priv.h" />

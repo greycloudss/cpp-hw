@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="02-29\1.cpp">
+    <ClCompile Include="Dovydas Levinas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
